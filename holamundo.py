@@ -2,8 +2,8 @@
 # coding: utf-8
 #Chamamos ao intérprete de python.
 #No noso caso usamos python 2.7
-# As liñas que empezan po # son comentarios do programa. Para parágrafos usamos ''' _ '''
-# Evitamos erros coa codificación de caracteres no noso idioma
+# As liñas que empezan con # son comentarios do programa. Para parágrafos usamos ''' _ '''
+# Evitamos erros coa codificación de caracteres no noso idioma con # coding: utf-8
 
 print "Ola Mundo! ;)"
 
