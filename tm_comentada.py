@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-#Táboa de multiplicar. Permite escoller un número e saca a táboa de mukltiplicar do mesmo
+#Táboa de multiplicar. Permite escoller un número e saca a táboa de multiplicar do mesmo
 
 ''' "anda" é unha variable á que lle damos o valor de 1. 
 Os nomes de variables non poden levar tildes nin ñ nin símbolos raros e teñen que ser unha única palabra. 
