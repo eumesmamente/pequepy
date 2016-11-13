@@ -21,19 +21,19 @@ def tm():
 	#try fará as operacións mentres non exista un erro xa que necesiamos un número enteiro e non outra cousa
 	try:
 		''' O código int(raw_input...  garda na variable "numero" o valor numérico para facer a táboa. 
-		int quere dicir número enteiro. raw_input=o escrito no teclado. Do inglés input=entrada e raw=crudo ou tal cual.
+		int quere dicir número enteiro. raw_input=o escrito no teclado. Do inglés input=entrada e raw=cru ou tal cal.
 		En python 3 raw_input é simplemente input '''
 		numero=int(raw_input("Pon un número:\n"))
 		print "===========================\n"
 		
-		#Definimos a variable "multiplicador" igual 1, xa que a táboa empeza multiplicando polo 1
+		#Definimos a variable "multiplicador" igual a 1, xa que a táboa empeza multiplicando polo 1
 		multiplicador=1
 		
 		''' Mentres (while) o multiplicador sexa menor que 11... o bucle fará multiplicacións.
 		xa que a a táboa remata no 10 '''
 		while multiplicador<11: 
 						
- 			#Definimos a variable "produto" que será o numero multiplicado polo multiplicador
+ 			#Definimos a variable "produto" que será o número multiplicado polo multiplicador
 			produto=numero*multiplicador
 			
 			#Poñemos na pantalla o resultado con "print". O valor das variable vai entre comas e o texto entre comiñas.
@@ -45,7 +45,7 @@ def tm():
 		
 		#Ao remate e tamén fora do bucle while pero aínda dentro de try: poñemos na pantalla información sobre a táboa.	
 		print "=========================== "
-		# O /n é para un salto de liña para que o que apareza despois na pantalla quede máis abaixo.
+		# O /n é para poñer un salto de liña. Para que o que apareza despois na pantalla quede máis abaixo.
 		print "Esta é a táboa do ",numero,"\n"
 		print " "
 	
