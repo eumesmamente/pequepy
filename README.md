@@ -7,4 +7,4 @@ Podes atopar documentación para aprender python en: <a href="https://wiki.pytho
 
 Libros sobre python en: <a href="https://openlibra.com/es/collection/search/category/programacion_python/" target="_blank">openlibra</a>
 
-Podes dercargalo en: <a href="https://www.python.org/downloads/" target="_blank">Descargar de Python</a>
+Podes dercargalo en: <a href="https://www.python.org/downloads/" target="_blank">Descargar Python</a>
