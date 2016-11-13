@@ -15,10 +15,10 @@ anda=1
 ''' Definimos con def tm(): a función "tm" que será a que faga as multiplicacións
 En python é MOY IMPORTANTE indentar. 
 Isto quere dicir que algún código ten que poñerse tabulado ou uns espazos máis á dereita
-seguindo a lóxica de cada parte do programa. Podes fixarte no que pasa despois de def, while, if, else...'''
+seguindo a lóxica de cada parte do programa. Podes fixarte no que pasa despois de def, try, while, if, else...'''
 
 def tm():
-	#try fará as operacións mentres non exista un erro xa que é necesario poñer un número enteiro e non outra cousa
+	#try fará as operacións mentres non exista un erro xa que necesiamos un número enteiro e non outra cousa
 	try:
 		''' O código int(raw_input...  garda na variable "numero" o valor numérico para facer a táboa. 
 		int quere dicir número enteiro. raw_input=o escrito no teclado. Do inglés input=entrada e raw=crudo ou tal cual.
@@ -29,7 +29,7 @@ def tm():
 		#Definimos a variable "multiplicador" igual 1, xa que a táboa empeza multiplicando polo 1
 		multiplicador=1
 		
-		''' Mentres o multiplicador sexa menor que 11... o bucle "while" (mentres) fará multiplicacións.
+		''' Mentres (while) o multiplicador sexa menor que 11... o bucle fará multiplicacións.
 		xa que a a táboa remata no 10 '''
 		while multiplicador<11: 
 						
