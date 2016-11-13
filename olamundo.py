@@ -8,6 +8,6 @@
 print "Ola Mundo! ;)"
 
 '''Esta orde amosa na pantalla a mensaxe "Ola Mundo ;)"
-No cado de usar python 3 sería:
+No caso de usar python 3 sería:
 print("Ola Mundo ;)");
 '''
