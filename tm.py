@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-#Táboa de multiplicar. Permite escoller un número e saca a táboa de mukltiplicar do mesmo
+#Táboa de multiplicar. Permite escoller un número e saca a táboa de multiplicar do mesmo
 
 anda=1
 
