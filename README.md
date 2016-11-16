@@ -10,4 +10,4 @@ Libros sobre python en: <a href="https://openlibra.com/es/collection/search/cate
 Podes dercargalo en: <a href="https://www.python.org/downloads/" target="_blank">Descargar Python</a>
 
 Libro *Inventa tus propios juegos de computadora con python*:
-<a href="https://openlibra.com/es/book/download/inventa-tus-propios-juegos-de-computadora-con-python-3a-edicion">Descargar</a>
+<a href="https://openlibra.com/es/book/download/inventa-tus-propios-juegos-de-computadora-con-python-3a-edicion">Descargar </a>
