@@ -24,9 +24,9 @@ except ValueError:
 #Na variable "hoxe" gardamos a data actual usando datetime.date.today 
 hoxe = datetime.date.today()
 
-#Comprobamos os datos
-if ano>hoxe.year or dia>31 or mes>12:
-	print "Algún dos datos é incorrecto"
+#Comprobamos os datos e limitamos a 110 anos de vida, por poñer algo. Igual a ciencia avanza tanto que chegamos a máis... ;) e o programa queda obsoleto.
+if ano>hoxe.year or dia>31 or mes>12 or ano<(hoxe.year-110):
+	print "Algún dos datos é incorrecto..."
 	exit()
 	
 #Na variable "nace" metemos os valores tecleados como enteiros
