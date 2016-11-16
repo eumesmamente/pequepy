@@ -11,3 +11,7 @@ Podes dercargalo en: <a href="https://www.python.org/downloads/" target="_blank"
 
 Libro *Inventa tus propios juegos de computadora con python*:
 <a href="https://openlibra.com/es/book/download/inventa-tus-propios-juegos-de-computadora-con-python-3a-edicion">Descargar </a>
+
+Libro *Doma de serpientes para niños* en versión <a href="https://openlibra.com/es/book/doma-de-serpientes-para-ninos-edicion-linux" target="_blank">Linux</a> y <a href="https://openlibra.com/es/book/doma-de-serpientes-para-ninos-edicion-windows" target="_blank">Windows</a>
+
+
