@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
+#Sansabot non sabe máis que contar do 1 ao 100
 import time
 
 print "  Eu son SansaBot...\n"  
