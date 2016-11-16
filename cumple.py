@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-#Calcula canto vai dende o teu nacemento
+#Calcula canto vai dende o teu nacemento e canto falta para o teu cumple
 #Usamos o módulo datetime
 import datetime
 
