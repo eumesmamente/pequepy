@@ -25,7 +25,7 @@ except ValueError:
 hoxe = datetime.date.today()
 
 #Comprobamos os datos e limitamos a 110 anos de vida, por poñer algo. Igual a ciencia avanza tanto que chegamos a máis... ;) e o programa queda obsoleto.
-if ano>hoxe.year or dia>31 or mes>12 or ano<(hoxe.year-110):
+if ano>hoxe.year or ano<=0 or dia>31 or dia<=0 or mes>12 or mes <= 0 or ano<(hoxe.year-110):
 	print "Algún dos datos é incorrecto..."
 	exit()
 	
