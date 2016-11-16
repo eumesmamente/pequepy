@@ -75,3 +75,4 @@ if diascumple>0:
 	print " Quedan uns",diascumple,"días para o teu",novocumple,"cumpleanos.\n"
 else:
 	print " Parece que estás a cumplir hoxe os",idade,"anos!!!. Felicidades :)\n"
+	
