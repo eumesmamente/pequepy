@@ -67,10 +67,11 @@ if diascumple<0:
 if diascumple==0:
 	diascumple=0
 
-print "\n Parece que xa tes",idade,"anos."
+print "\n Vexo que xa tes",idade,"anos."
 print " Levas vividos uns",mesesvida,"meses,",diasvida,"días,",horasvida,"horas,",segundosvida,"segundos."
 
 if diascumple>0:
-	print " Quedan uns",diascumple,"días para o teu cumple"
+	novocumple=idade+1
+	print " Quedan uns",diascumple,"días para o teu",novocumple,"cumpleanos"
 else:
 	print " Parece que estás a cumplir hoxe os",idade,"anos!!!. Felicidades :)"
