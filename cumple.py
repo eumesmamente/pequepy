@@ -72,6 +72,6 @@ print " Levas vividos uns",mesesvida,"meses,",diasvida,"días,",horasvida,"horas
 
 if diascumple>0:
 	novocumple=idade+1
-	print " Quedan uns",diascumple,"días para o teu",novocumple,"cumpleanos"
+	print " Quedan uns",diascumple,"días para o teu",novocumple,"cumpleanos.\n"
 else:
-	print " Parece que estás a cumplir hoxe os",idade,"anos!!!. Felicidades :)"
+	print " Parece que estás a cumplir hoxe os",idade,"anos!!!. Felicidades :)\n"
