@@ -4,18 +4,36 @@
 #Usamos o módulo datetime
 import datetime
 
-dia=int(raw_input(" Pon o día que naciches\n"))
-mes=int(raw_input(" Pon o número do mes\n"))
-ano=int(raw_input(" Pon o ano, por exemplo 2002\n"))
+try:
+	dia=int(raw_input(" Pon o día que naciches\n"))
+except ValueError:
+	    print(' É necesario poñer un número.\n')
+	    exit()
+try:	    
+	mes=int(raw_input(" Pon o número do mes\n"))
+except ValueError:
+	    print(' É necesario poñer un número.\n')
+	    exit()
+try:
+	ano=int(raw_input(" Pon o ano, por exemplo 2002\n"))
+except ValueError:
+	    print(' É necesario poñer un número.\n')
+	    exit()
+
 
 #Na variable "hoxe" gardamos a data actual usando datetime.date.today 
 hoxe = datetime.date.today()
+
+#Comprobamos os datos
+if ano>hoxe.year or dia>31 or mes>12:
+	print "Algún dos datos é incorrecto"
+	exit()
+	
 #Na variable "nace" metemos os valores tecleados como enteiros
 nace = datetime.date(int(ano),int(mes),int(dia))
 #O mesmo en "cumple" para gardar a data do aniversario
 cumple = datetime.date(hoxe.year,int(mes),int(dia))
-
-
+	
 #Si o mes de nacemento é maior que o actual é que non chegou o cumple e restamos 1 á idade
 if mes>hoxe.month: 
 	idade = hoxe.year-nace.year-1
