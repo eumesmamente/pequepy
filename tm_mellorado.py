@@ -16,6 +16,7 @@ def tm():
 	try:
 		numero=int(raw_input("Pon un número:\n"))
 		# Con os.system usamos o comando clear que limpa a pantalla.
+		# No caso de usar o programa en windows cambiamos "clear" por "cls"
 		os.system('clear')
 		print ""
 		print " ==================="
