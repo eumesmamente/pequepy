@@ -38,7 +38,7 @@ cumple = datetime.date(hoxe.year,int(mes),int(dia))
 if mes>hoxe.month: 
 	idade = hoxe.year-nace.year-1
 #O mesmo no caso de que o mes sexa o mesmo pero o día sexa menor que día actual 	
-elif mes==hoxe.month and dia<hoxe.day:
+elif mes==hoxe.month and dia>hoxe.day:
 	idade = hoxe.year-nace.year-1
 #Se todo coindide é que estás de cumple e non restamos nada
 elif mes==hoxe.month and dia==hoxe.day:
