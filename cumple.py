@@ -55,7 +55,6 @@ else:
 	idade = hoxe.year-nace.year
 '''
 
-
 #Creamos variables para calcular e gardar varios datos 
 
 diasvida=(hoxe-nace).days
