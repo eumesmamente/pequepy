@@ -14,4 +14,4 @@ Libro *Inventa tus propios juegos de computadora con python*:
 
 Libro *Doma de serpientes para niños* en versión <a href="https://openlibra.com/es/book/doma-de-serpientes-para-ninos-edicion-linux" target="_blank">Linux</a> y <a href="https://openlibra.com/es/book/doma-de-serpientes-para-ninos-edicion-windows" target="_blank">Windows</a>
 
-
+Páxina interesante: <a href="http://programarcadegames.com/index.php?lang=es" target="_blank">Xogos python e pygame</a>
