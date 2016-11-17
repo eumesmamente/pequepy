@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Animación simple. 
+Animación simple.
+Inspirado por:  http://progra.usm.cl/apunte/materia/texto.html#saltos-de-linea
+
 O módulo "os" permite usar comandos do sistema como "clear" para limpar a pantalla.
 O módulo time permite usar "time.sleep(segundos) para parar o programa un tempo"
 Cando poñemos \n facemos un salto de liña. 
