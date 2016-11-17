@@ -38,7 +38,8 @@ for i in range(4):
 	print ' /|\\ /|\\ /|\\ /|\\ /|\\ /|\\'
 	print ' / \\ / \\ / \\ / \\ / \\ / \\    B a i x a n'
 	time.sleep(0.3)
-	
+
+#Está claro que aquí sobra o bucle for, pero fai gracia....	
 for i in range(1):
 	os.system('clear')
 	print '\n  o   o   o   o   o   o'
