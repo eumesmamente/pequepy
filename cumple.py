@@ -47,6 +47,14 @@ elif mes==hoxe.month and dia==hoxe.day:
 else:
 	idade = hoxe.year-nace.year 
 
+'''
+As catro liñas anteriores poden simplificarse en:
+if mes>hoxe.month or mes==hoxe.month and dia>hoxe.day: 
+	idade = hoxe.year-nace.year-1
+else:
+	idade = hoxe.year-nace.year
+'''
+
 
 #Creamos variables para calcular e gardar varios datos 
 
