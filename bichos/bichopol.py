@@ -12,15 +12,15 @@ bicho.speed("fastest")
 fondo = turtle.Screen()
 fondo.setup(800, 800)
 fondo.bgcolor("#C4EAF7")
-cores = ["red", "green", "blue", "cyan", "magenta", "yellow"]
+cores = ["#CD2D00", "#05B639", "#35B0E9", "#E9357D", "#FF871B", "#FFE330", "#24DCF2", "#B371F1"]
 
 #Función que fai o polígono de N lados. O bicho xira cada vez 360 graos dividido entre o número de lados
 def poligono(lados,largo):
     bicho.begin_fill()
     for i in range(lados):
-        cor = random.randint(0, 5)
+        cor = random.randint(0, 7)
         recheo = cores[cor]
-        bicho.pen(pensize=2, pencolor="blue", fillcolor=recheo)
+        bicho.pen(pensize=2, pencolor="black", fillcolor=recheo)
         bicho.forward(largo)
         bicho.right(360.0/lados)
     bicho.end_fill()
