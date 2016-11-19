@@ -2,23 +2,28 @@
 # coding: utf-8
 # O bicho pode facer polígonos dos lados que queiras....
 import turtle
+import random
 #Módulo tkSimpleDialog que amosa un diálogo no que podemos facer preguntas para interacuar co xogador.
 #En python 3 non é necesario xa que ven integrado en Turtle
 import tkSimpleDialog
 bicho = turtle.Turtle()
 bicho.shape("turtle")
-bicho.pensize(2)
 bicho.speed("fastest")
 fondo = turtle.Screen()
 fondo.setup(800, 800)
 fondo.bgcolor("#C4EAF7")
+cores = ["red", "green", "blue", "cyan", "magenta", "yellow"]
 
 #Función que fai o polígono de N lados. O bicho xira cada vez 360 graos dividido entre o número de lados
 def poligono(lados,largo):
+    bicho.begin_fill()
     for i in range(lados):
+        cor = random.randint(0, 5)
+        recheo = cores[cor]
+        bicho.pen(pensize=2, pencolor="blue", fillcolor=recheo)
         bicho.forward(largo)
         bicho.right(360.0/lados)
-
+    bicho.end_fill()
 #Unha finción para facer invisible ao bicho e cambialo de sitio usando as coordenadas x,y con goto(vai one eu diga en x,y)...
 def oculto(x,y):
     bicho.penup()
