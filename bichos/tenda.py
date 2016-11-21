@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-#Aplicación que emula unha TPV dunha tenda. 
+#Aplicación que emula a TPV dunha tenda. 
 #É necesario descargar tamén a imaxe "tenda.gif" na mesma carpeta que o programa "tenda.py"
 import turtle
 import Tkinter
