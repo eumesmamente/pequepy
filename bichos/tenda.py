@@ -3,7 +3,6 @@
 import turtle
 import Tkinter
 import tkMessageBox
-import tkSimpleDialog
 import time
 
 bicho = turtle.Turtle()
@@ -32,7 +31,7 @@ def dialogo(x,y):
 	datos='x ',x,'y ',y
 	if activo==1:
 		if textoc<-300:
-			tkMessageBox.showinfo("Cesta da compra", "É necesario rematar a compra\n Non collen máis produtos na cesta")
+			tkMessageBox.showwarning("Cesta da compra", "É necesario rematar a compra\n Non collen máis produtos na cesta")
 			activo=2	
 		elif x>-499 and x<-345 and y<234 and y>125:
 			movebicho(170,textoc)
