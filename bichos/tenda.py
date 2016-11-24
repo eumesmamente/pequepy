@@ -4,7 +4,7 @@
 #É necesario descargar tamén a imaxe "tenda.gif" na mesma carpeta que o programa "tenda.py"
 import turtle
 import Tkinter
-import tkMessageBox
+import tkMessageBox 
 
 bicho = turtle.Turtle()
 bicho.shape("turtle")
