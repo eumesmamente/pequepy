@@ -5,7 +5,6 @@
 import turtle
 import Tkinter
 import tkMessageBox
-import time
 
 bicho = turtle.Turtle()
 bicho.shape("turtle")
