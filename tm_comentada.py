@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-#Táboa de multiplicar. Permite escoller un número e saca a táboa de multiplicar do mesmo
+#Táboa de multiplicar feito en python 2.7. Permite escoller un número e saca a táboa de multiplicar do mesmo
 
 ''' "anda" é unha variable á que lle damos o valor de 1. 
 Os nomes de variables non poden levar tildes nin ñ nin símbolos raros e teñen que ser unha única palabra. 
@@ -22,7 +22,10 @@ def tm():
 	try:
 		''' O código int(raw_input...  garda na variable "numero" o valor numérico para facer a táboa. 
 		int quere dicir número enteiro. raw_input=o escrito no teclado. Do inglés input=entrada e raw=cru ou tal cal.
-		En python 3 raw_input é simplemente input '''
+		
+		En python versión 3 raw_input é simplemente input 
+		En python versión 3 print "hola" é print ("hola")  '''
+		
 		numero=int(raw_input("Pon un número:\n"))
 		print "===========================\n"
 		
