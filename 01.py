@@ -27,7 +27,7 @@ print "Multiplicar 5x4"
 print 5*4
 print "Dividir 5 entre 4"
 print "Sen decimais"
-print "5/4"
+print 5/4
 print "Con decimais"
 print float(5)/4
 print "Elevar 5 a 4" 
