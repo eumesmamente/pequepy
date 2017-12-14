@@ -1,6 +1,7 @@
 # pequepy
 
 ##Para aprender e practicar un pouco.
+
 Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https://www.python.org/" target="_blank">Python</a>.
 
 Podes atopar documentación para aprender python en: <a href="https://wiki.python.org/moin/SpanishLanguage" target="_blank">wiki.python</a> 
