@@ -10,6 +10,8 @@ Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/ipython_terminal
 
 Outra alternativa para practicar un pouco é [repl.it](https://repl.it/languages/python "Practica python na casa...").
 
+Un curso ou titorial na web: [codecademy](https://www.codecademy.com/es/tracks/python-traduccion-al-espanol-america-latina-clone-1/resume "Aprende python")
+
 ### Recursos Python
 
 Podes atopar documentación para aprender python en: <a href="https://wiki.python.org/moin/SpanishLanguage" target="_blank">wiki.python</a> 
