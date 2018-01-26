@@ -8,6 +8,8 @@ Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https:/
 
 Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/ipython_terminal_online.php "Practica python na casa...") para practicar python usando o navegador web.
 
+Outra alternativa para practicar un pouco é [repl.it](https://repl.it/languages/python "Practica python na casa...").
+
 ### Recursos Python
 
 Podes atopar documentación para aprender python en: <a href="https://wiki.python.org/moin/SpanishLanguage" target="_blank">wiki.python</a> 
