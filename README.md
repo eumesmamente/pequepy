@@ -4,6 +4,12 @@
 
 Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https://www.python.org/" target="_blank">Python</a>.
 
+### Practicar Python 
+
+Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/ipython_terminal_online.php "Practica python na casa...") para practicar python usando o navegador web.
+
+### Recursos Python
+
 Podes atopar documentación para aprender python en: <a href="https://wiki.python.org/moin/SpanishLanguage" target="_blank">wiki.python</a> 
 
 Libros sobre python en: <a href="https://openlibra.com/es/collection/search/category/programacion_python/" target="_blank">openlibra</a>
