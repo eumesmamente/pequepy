@@ -6,6 +6,7 @@ import time
 
 print "Este programa vai contar do 1 ao número que poñas 2 veces de dúas formas distintas sempre que non sexa maior de 1000000"
 
+#Definimos unha función chamada conta. Podemos chamala como queiramos...
 def conta():
 	
 	#try é intenta....
@@ -46,4 +47,5 @@ def conta():
 	except ValueError:
 		print "E necesario poñer un número\n"		
 
+#Chamamos á función conta polo seu nome...
 conta()
