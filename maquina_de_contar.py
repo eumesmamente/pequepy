@@ -7,6 +7,8 @@ import time
 print "Este programa vai contar do 1 ao número que poñas 2 veces de dúas formas distintas sempre que non sexa maior de 1000000"
 
 def conta():
+	
+	#try é intenta....
 	try:
 		numero=int(raw_input("Pon un número:\n"))
 		#Condicional if
@@ -39,7 +41,8 @@ def conta():
 			#Este é o bucle for	
 			for cuenta in range(1, numero+1):
 				print cuenta,
-			
+
+	#No caso de que o intento non funcione usamos except ValueError (Excepto que o valor, neste caso un número, non sexa correto)		
 	except ValueError:
 		print "E necesario poñer un número\n"		
 
