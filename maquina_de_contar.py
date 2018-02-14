@@ -4,7 +4,7 @@
 #importamos a función time
 import time
 
-print "Este programa vai contar do 1 ao núñero que poñas 2 veces de dúas formas distintas sempre que non sexa maior de 1000000"
+print "Este programa vai contar do 1 ao número que poñas 2 veces de dúas formas distintas sempre que non sexa maior de 1000000"
 
 def conta():
 	try:
