@@ -9,11 +9,10 @@ import os
 os.system('clear')
 
 def xogo():
+	partidas=0
 	xogando = True
 	cp=0
 	ncp=0
-	cnp=0
-	ncnp=0
 
 	while xogando:
 	  os.system('clear')
@@ -40,15 +39,20 @@ def xogo():
 		cp = cp+1
 	  if cambiaporta == escolleporta and cambiaporta == premio:
 		print " Non cambiache de porta e tes P R E M I O !! :)\n"
-		ncp=ncp+1
+		ncp = ncp+1
 	  if cambiaporta != escolleporta and cambiaporta != premio:
 		print " Cambiache de porta e NON tes premio :(\n"
-		cnp=cnp+1
 	  if cambiaporta == escolleporta and cambiaporta != premio:
 		print " Non cambiache de porta e NON tes premio :(\n"
-		ncnp=ncnp+1
- 
-	  print " Gañache cambiando",cp,"veces e sen cambiar",ncp,"veces\n Perdiche cambiando",cnp,"veces e sen cambiar",ncnp,"veces"
+	  partidas=partidas+1
+	  ganados=cp+ncp
+	  if ganados < 1:
+	    porcentaxecp=0
+	  else:
+	    porcentaxecp=round((cp*100/ganados) ,0)
+	  porcentaxencp=100-porcentaxecp
+	  print "Partidas xogadas:",partidas
+	  print " Gañache cambiando",cp,"veces,",porcentaxecp,"%, e sen cambiar",ncp,"veces.",porcentaxencp,"% \n "
 	  print "\n Outra partida? S/N"
 	  outra = raw_input()	  
 	  if outra != "s" and outra != "S":
