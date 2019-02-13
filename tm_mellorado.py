@@ -34,10 +34,10 @@ def tm():
 		print " ===================="
 		#Con print sacamos algunhas cores na pantalla. Máis info: http://www.siafoo.net/snippet/88 
 		print "\033[1;32;40m Esta é a táboa do",numero,"\n"
-		print "\033[1;37;40m "
+		print "\x1b[0m"
 	except ValueError:
 		print "\033[1;31;40m E necesario poñer un número\n"
-		print "\033[1;37;40m "		
+		print "\x1b[0m"
 
 
 
