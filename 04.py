@@ -74,7 +74,7 @@ tempo=????
 print "\n En percorrer os",????,"km da viaxe tardarás",round(????,2),"horas.\n"
 
 '''
-Cando remates e teñas o programa funcionando correctamente fai o seguinte:
+Cando remates e teñas o programa funcionando correctamente fai o seguinte: 
 
 Na terminal, dentro da carpeta de programación do curso actual
 crea un novo programa poñendo nano granxa.py
