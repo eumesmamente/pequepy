@@ -85,7 +85,7 @@ Lembra que para ver se o programa funciona:
  - Dalle permisos ao programa con chmod +x granxa.py
  - Executa o programa con ./granxa.py
 
-Farás un programa que calcule os gastos e ingresos dunha explotación de vacas leiteiras.
+Farás un programa que calcule os gastos e ingresos dunha explotación de vacas leiteiras. 
 
 O programa preguntará:
 
