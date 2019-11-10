@@ -48,7 +48,7 @@ acertaches = '''
 print vermello+banerxogo+nada
 nome = raw_input(azul+" Como te chamas? ")
 print "\n Ola, " + nome, "Imos xogar ao AFORCADO!"+nada
-print verde+"\n Adivina a palabra secreta...\n"+nada
+print verde+"\n Adiviña a palabra secreta...\n"+nada
 time.sleep(2)
 print " Empeza o xogo...\n"
 time.sleep(0.5)
@@ -57,14 +57,14 @@ def xogo():
     palabras  = ["magosto","exercicio","sentidiño","meiga","samaín","trapallada","amizade","larpeiro","biquiño","agarimo","entroido","treboada","golfiño","ollomol","bolboreta","toxo","fervenza","boneca","ledicia","bágoa","exame"]
     palabra = random.choice(palabras)
     palabra = descodifica(palabra)
-    adivinadas = ''
+    letrasditas = ''
     intentos = 10
 
 
     while intentos > 0:         
         erros = 0                
         for char in palabra:      
-            if char in adivinadas:    
+            if char in letrasditas:    
                 print verde+char,    
             else:
                 print verde+"_",     
@@ -75,7 +75,7 @@ def xogo():
             print ganador+nada
             break              
         letra = descodifica(raw_input(nada+"\n\n Pon unha letra:"))
-        adivinadas += letra                    
+        letrasditas += letra                    
         if letra not in palabra:  
             intentos -= 1        
             print vermello+"\n A letra non está na palabra"+nada
