@@ -28,4 +28,4 @@ while tenda:
         print "\n Total compra: ",compra,"€"
         print " ========================="
         print " Total + IVE : ",compra*1.1,"€"
-	tenda=False
+	    tenda=False

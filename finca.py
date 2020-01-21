@@ -2,7 +2,6 @@
 # coding: utf-8
 
 IVE=0.21
-
 largo=float(raw_input("Largo dda finca?\n"))
 ancho=float(raw_input("Ancho da finca?\n"))
 prezometro=float(raw_input("Prezo do metro cadrado?\n"))
