@@ -32,8 +32,8 @@ def mais():
     if outra=="s" or outra=="S":
         maxica()
     else:
-		listarpalabras()
-		print "\nQue teñas un día máxico"
+        listarpalabras()
+        print "\nQue teñas un día máxico"
 
 def maxica():
     palabramaxica=raw_input("Cal é a palabra máxica?\n")
@@ -45,8 +45,8 @@ def maxica():
         mais()
 
 def listarpalabras():
-	print "As palabras máxicas eran:\n"
-	for palabra in palabrasmaxicas:
-		print palabra	
+    print "As palabras máxicas eran:\n"
+    for palabra in palabrasmaxicas:
+        print palabra	
 
 maxica()
