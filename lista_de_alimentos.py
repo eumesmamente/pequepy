@@ -24,8 +24,6 @@ def xogaroutra():
     else:
         print "Vale, adeus"
 
-
-alimentos = []
 alimentos = ["patacas", "ovos", "leite", "queixo", "leituga"]
 xogo()
 
