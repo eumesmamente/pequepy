@@ -6,11 +6,10 @@ Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https:/
 
 ### Practicar Python 
 
-- Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/ipython_terminal_online.php "Practica python na casa...") para practicar python usando o navegador web.
+- Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/execute_python_online.php "Practica python na casa...") para practicar python usando o navegador web.
 
 - Outra alternativa para practicar un pouco é [repl.it](https://repl.it/languages/python "Practica python na casa...").
 
-- Un curso ou titorial na web: [codecademy](https://www.codecademy.com/es/tracks/python-traduccion-al-espanol-america-latina-clone-1/resume "Aprende python")
 
 ### Recursos Python
 
