@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
+# É necesario ter instalado pandoc....
+
 import os
 import time
 
