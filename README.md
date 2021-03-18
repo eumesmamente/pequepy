@@ -4,7 +4,7 @@
 
 Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https://www.python.org/" target="_blank">Python</a>.
 
-> Estamos a usar python 2.7 porque nos nosos computadores é o que hai... Bueno tamén está o python 3. Iremos actualizando e poucos. Non hai présa.
+> Estamos a usar python 2.7 porque nos nosos computadores é o que hai e ben nos chega... Bueno tamén está o python 3. Iremos actualizando a poucos. Non hai présa.
 
 ### Practicar Python 
 
