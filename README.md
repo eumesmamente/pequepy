@@ -4,6 +4,8 @@
 
 Un *<b>pequeno</b>* repositorio con algúns programas feitos en <a href="https://www.python.org/" target="_blank">Python</a>.
 
+> Estamos a usar python 2.7 porque nos nosos computadores é o que hai... Bueno tamén está o python 3. Iremos actualizando e poucos. Non hai présa.
+
 ### Practicar Python 
 
 - Podes entrar en [tutorialspoint](https://www.tutorialspoint.com/execute_python_online.php "Practica python na casa...") para practicar python usando o navegador web.
